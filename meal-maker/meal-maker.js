@@ -10,19 +10,19 @@ const menu = {
     return this._courses.appetizers;
   },
   set appetizers(appetizersData) {
-    this._courses.appetizers = appetizersData;
+    this._courses.appetizers.push(appetizersData);
   },
   get mains() {
     return this._courses.mains;
   },
   set mains(mainsData) {
-    this._courses.mains = mainsData;
+    this._courses.mains.push(mainsData);
   },
   get desserts() {
     return this._courses.desserts;
   },
   set desserts(dessertsData) {
-    this._courses.desserts = dessertsData;
+    this._courses.desserts.push(dessertsData);
   },
   get courses() {
     return {
