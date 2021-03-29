@@ -1,0 +1,35 @@
+/* The selector should target the h1, h2, p, and li elements. */
+h1,
+h2,
+p,
+li {
+  font-family: Helvetica;
+}
+
+img {
+  height: 150px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+#cook-time {
+  font-weight: bold;
+}
+
+.ingredients li {
+  list-style: square;
+}
+
+.time {
+  color: gray;
+}
+
+.external-link {
+  color: SeaGreen;
+}
+
+
+
+
