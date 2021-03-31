@@ -1,0 +1,32 @@
+/* https://www.schemecolor.com/rainbow-pastels-color-scheme.php */
+#default {
+  background-color: #FF9AA2;
+}
+
+#success {
+  background-color: #FFB7B2;
+}
+
+#danger {
+  background-color: #FFDAC1;
+}
+
+#info {
+  background-color: #E2F0CB;
+}
+
+#warning {
+  background-color: #B5EAD7;
+}
+
+#active {
+  background-color: #C7CEEA;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
