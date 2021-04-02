@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  color: aquamarine;
+  font-size: 16px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 21px;
+  color: gray;
+}
+
+#tent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#phone {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: right;
+  color: gray;
+  font-size: 27px;
+}
