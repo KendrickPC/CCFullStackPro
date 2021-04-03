@@ -12,14 +12,46 @@
   margin: 20px 0px;
 }
 
+.color-label {
+  color: white;
+}
+
 .font-panels {
   display: inline-block;
   width: 33%;
 }
 
-.color-label {
-  color: white;
+.font-name {
+  text-decoration: underline;
+  font-size: 30px;
 }
+
+.crimson {
+  font-family: "Crimson Text", serif;
+}
+
+.zilla {
+  font-family: 'Zilla Slab', serif;
+}
+
+.indie {
+  font-family: 'Indie Flower', serif;
+}
+
+.font-sentence-one {
+
+}
+
+.font-sentence-two {
+  font-weight: 900;
+}
+
+.font-sentence-three {
+  /* font-family: 'Crimson Text'; */
+  font-style: italic;
+}
+
+
 
 .color-hex {
   color: white;
