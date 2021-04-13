@@ -22,6 +22,10 @@ nav {
   
 }
 
+header {
+  border-bottom: 1px solid seashell;
+}
+
 h2,
 h4 {
   text-align: center;
@@ -30,35 +34,31 @@ h4 {
   
 .hero-image {
   background-image: url('images/img-mission-background.webp');
-  /* height: 50%;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; */
+  /* display: -webkit-box; */
+  display: flex;
+  width: 100%;
+  
 }
 
-/* .hero-text {
-  background-color: pink;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-} */
+.hero-text {
+  margin: auto;
+  background-color: #00A8E1;
+  width: 100%;
+}
 
-/* .hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-} */
-/* 
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
-} */
+.special-teas-container {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.special-teas img {
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+}
