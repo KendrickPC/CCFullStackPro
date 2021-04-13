@@ -1,1 +1,1 @@
-<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image -->
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image
