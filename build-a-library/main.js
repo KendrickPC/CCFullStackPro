@@ -106,6 +106,7 @@ historyOfEverything.addRating(5)
 console.log(historyOfEverything.getAverageRating());
 
 const speed = new Movie('Speed', 'Jan de Bont', 116)
+const inception = new Movie('Inception', 'Christopher Nolan', 'N/A')
 speed.toggleCheckOutStatus();
 console.log(speed.isCheckedOut);
 speed.addRating(1)
@@ -116,7 +117,7 @@ console.log(speed.getAverageRating());
 speed.addCastMember('Nicolas Cage');
 console.log(speed);
 
-let bts = new CD("BTS FOVEVER");
+let bts = new CD("BTS FOREVER");
 bts.addTracks(1)
 bts.addTracks(2)
 bts.addTracks(3)
@@ -131,7 +132,21 @@ console.log(bts.shuffle());
 
 class Catalog {
   constructor() {
-    
+    this._collection = [];
+  }
+  get collection() {
+    return this._collection;
+  }
+  set collection(media) {
+    this._collection.push(media)
   }
 };
 
+
+
+const mediaLibrary = new Catalog();
+mediaLibrary.collection = bts;
+mediaLibrary.collection = speed;
+mediaLibrary.collection = historyOfEverything;
+mediaLibrary.collection = inception;
+console.log(mediaLibrary);
